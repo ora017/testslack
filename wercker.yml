@@ -1,5 +1,5 @@
-build:
 box: debian:stable-slim
+build:
     steps:
     - install-packages:
         packages: curl
